@@ -1,0 +1,6 @@
+data/*
+log/*
+output/*
+lightning_logs/*
+wandb/*
+*.pyc

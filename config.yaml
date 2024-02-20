@@ -1,0 +1,26 @@
+# PLM configs
+bert_path: roberta-large
+add_special_tokens: True
+num_hidden_layers: 12
+freeze_lower: 8
+word_embedding_dim: 1024
+bert_dim: 1024
+
+# basic settings
+bert_lr: 2e-5
+lr: 2e-4
+batch_size: 32
+data_dir: data
+seed: 42
+adam_epsilon: 1e-8
+weight_decay: 0
+warmup_proportion: 0.1
+epoch: 3
+dropout: 0.1
+force_new: False
+num_labels: 2
+
+# task
+task: a2
+# a1-multilingual;a2-monolingual;b;c
+
